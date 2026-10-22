@@ -1,0 +1,9 @@
+{
+  "version": "3.0.0",
+  "versionCode": 30000,
+  "apk": "downloads/PCT-Technician-3.0.0.apk",
+  "bytes": 121180,
+  "sha256": "3b1507aeb7417b5ffecfa0841eea832eba04542c57cfd9f7d1eb45c080f89523",
+  "builtAt": "2026-10-22",
+  "minAndroid": "8.0"
+}

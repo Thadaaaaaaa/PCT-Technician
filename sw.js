@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='pct-xiaomi-service-mobile-3.0.0-r1';
+const CACHE='pct-technician-mobile-3.1.0-r1';
 const FILES=['./','./index.html','./app.css','./app.js','./catalog.js','./exports.js','./calculator.js','./drafts.js','./mascot.js','./update-key.js','./vendor/qrcode.js','./icon.svg','./icon-192.png','./icon-512.png','./manifest.webmanifest','./qr/line.svg','./qr/payment.svg','./qr/survey-air.svg','./qr/survey-washer.svg'];
 const BASE=new URL('./',self.location.href);
 const ASSETS=new Set(FILES.map(p=>new URL(p,BASE).pathname));

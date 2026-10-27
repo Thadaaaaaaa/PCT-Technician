@@ -1,6 +1,6 @@
 'use strict';
-const CACHE='pct-technician-mobile-3.1.0-r1';
-const FILES=['./','./index.html','./app.css','./app.js','./catalog.js','./exports.js','./calculator.js','./drafts.js','./mascot.js','./update-key.js','./vendor/qrcode.js','./icon.svg','./icon-192.png','./icon-512.png','./manifest.webmanifest','./qr/line.svg','./qr/payment.svg','./qr/survey-air.svg','./qr/survey-washer.svg'];
+const CACHE='pct-technician-mobile-3.2.0-r1';
+const FILES=['./','./index.html','./app.css','./expense.css','./app.js','./catalog.js','./exports.js','./sheet-sync-config.js','./sheet-sync.js','./expense-forms.js','./calculator.js','./drafts.js','./mascot.js','./update-key.js','./vendor/qrcode.js','./icon.svg','./icon-192.png','./icon-512.png','./manifest.webmanifest','./qr/line.svg','./qr/payment.svg','./qr/survey-air.svg','./qr/survey-washer.svg'];
 const BASE=new URL('./',self.location.href);
 const ASSETS=new Set(FILES.map(p=>new URL(p,BASE).pathname));
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES.map(p=>new Request(new URL(p,BASE),{cache:'reload',credentials:'same-origin'})))).then(()=>self.skipWaiting())));

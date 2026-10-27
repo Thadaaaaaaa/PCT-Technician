@@ -45,4 +45,9 @@ body{line-height:1.6}button{line-height:1.45}h1,h2,h3,p{overflow-wrap:anywhere}h
 .service-picker-title{font-size:18px;font-weight:700;color:var(--ink)}
 .service-picker>.catalog-search{margin-top:10px}
 .service-picker .equipment-list{max-height:420px;overflow:auto;padding-right:4px;overscroll-behavior:contain}
+.service-picker .equipment-list[hidden]{display:none}
+.service-picker .catalog-search{margin-bottom:0}
+.service-picker .equipment-list:not([hidden]){margin-top:8px;gap:4px;padding:6px;border:1px solid #dce3e7;border-radius:12px;background:#fff;box-shadow:0 8px 22px #17273512}
+.service-picker .equipment-card{border:0;border-radius:8px}
+.service-picker .equipment-choice{min-height:44px;padding:9px 12px}
 @media(max-width:580px){.bottom-nav{grid-template-columns:repeat(3,minmax(0,1fr))}.service-picker .equipment-list{max-height:360px}.service-picker-title{font-size:16px}}
